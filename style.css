@@ -1,0 +1,73 @@
+h1 { 
+    text-align: center;
+    margin: -2px;
+}
+h2 { 
+    text-align: center;
+    margin: -2px;
+}
+h6 { 
+    text-align: right;
+    margin: -2px;
+    text-decoration: underline;
+}
+#main {
+    border: 2px solid blue;
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+#main TD {
+    border: 2px solid blue;
+}
+#Qcard2 {
+    font-size: xx-large;
+    text-align: center;
+}
+#Acard1 {
+    font-size: xx-large;
+    text-align: center;
+}
+#EcardQ {
+    font-size: medium;
+    text-align: center;
+}
+#EcardA {
+    font-size: medium;
+    text-align: center;
+}
+#sub{
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+.btn{
+    border: 0.5px solid black;
+    width: 100%;
+    font-size: x-large;
+}
+#btn1{
+    background-color: pink;
+}
+#btn2{
+    background-color: lightblue;
+}
+#btn0{
+    background-color: gray;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+}
+.ifnec{
+    text-decoration: underline;
+    text-align: center;
+    font-size: x-large;
+}
+hr{
+    margin: 0px -2px;
+    height: 2px;
+    background-color: blue;
+    border: none;
+}
