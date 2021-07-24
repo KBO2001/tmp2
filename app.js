@@ -1620,7 +1620,7 @@ btn0.onclick = function () {
         return;
     }
 //    wordList[sortList[now][0] - 1][7] = 0;
-/     console.log(wordList[sortList[now][0] - 1]);
+//     console.log(wordList[sortList[now][0] - 1]);
     next()
 };
 
