@@ -1619,8 +1619,8 @@ btn0.onclick = function () {
     if (play == 0) {
         return;
     }
-    wordList[sortList[now][0] - 1][7] = 0;
-    console.log(wordList[sortList[now][0] - 1]);
+//    wordList[sortList[now][0] - 1][7] = 0;
+/     console.log(wordList[sortList[now][0] - 1]);
     next()
 };
 
@@ -1637,8 +1637,8 @@ btn2.onclick = function () {
     if (play == 0) {
         return;
     }
-    wordList[sortList[now][0] - 1][7] = 2;
-    console.log(wordList[sortList[now][0] - 1]);
+//     wordList[sortList[now][0] - 1][7] = 2;
+//     console.log(wordList[sortList[now][0] - 1]);
     next()
 };
 
