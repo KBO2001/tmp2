@@ -1257,7 +1257,7 @@ function load() {
     console.log(`wordList length: ${wordList.length}`);
     
     for (let i = 1; i <= wordList.length; i++) {
-        woedList[i][0] = i;
+        wordList[i][0] = i;
     }
 };
 
