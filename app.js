@@ -1151,13 +1151,13 @@ let now;
 let play;
 
 window.onload = load();
-window.onload = function() {
-    
+window.onload = numbering();
+
+function numbering() {
     for (let i = 0; i <= wordList.length; i++) {
         wordList[i][0] = i + 1;
         console.log(wordList[i]);
     }
-    
 };
 
 function load() {
