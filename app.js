@@ -1255,6 +1255,10 @@ function load() {
         }
     console.log(`onload`);
     console.log(`wordList length: ${wordList.length}`);
+    
+    for (let i = 1; i <= wordList.length; i++) {
+        woedList[i][0] = i;
+    }
 };
 
 toTop.onclick = function () {
