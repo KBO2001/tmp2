@@ -1154,7 +1154,7 @@ window.onload = load();
 window.onload = numbering();
 
 function numbering() {
-    for (let i = 0; i <= wordList.length; i++) {
+    for (let i = 0; i < wordList.length; i++) {
         wordList[i][0] = i + 1;
         console.log(wordList[i]);
     }
