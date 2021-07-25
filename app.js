@@ -1166,7 +1166,7 @@ function load() {
     btn5.innerHTML = `開始`;
     EcardQ.innerHTML = `
         <form id="rLv">
-            <input type="radio" name="rnLv">All</input>
+            <input type="radio" name="rnLv" checked>All</input>
             <input type="radio" name="rnLv">Lv.0</input>
             <input type="radio" name="rnLv">Lv.1</input>
             <input type="radio" name="rnLv">Lv.2</input>
@@ -1177,7 +1177,7 @@ function load() {
         </form>
         <hr>
         <form id="rPart">
-            <input type="radio" name="rnPart">All</input>
+            <input type="radio" name="rnPart" checked>All</input>
             <input type="radio" name="rnPart">名詞</input>
             <input type="radio" name="rnPart">動詞</input>
             <input type="radio" name="rnPart">副詞</input>
@@ -1202,7 +1202,7 @@ function load() {
         </form>
         <hr>
         <form id="rTimes">
-            <input type="radio" name="rnTimes">All</input>
+            <input type="radio" name="rnTimes" checked>All</input>
             <input type="radio" name="rnTimes">10</input>
             <input type="radio" name="rnTimes">30</input>
             <input type="radio" name="rnTimes">50</input>
@@ -1210,7 +1210,7 @@ function load() {
         </form>
         <hr>
         <form id="rDirection">
-            <input type="radio" name="rnDirection">独→日</input>
+            <input type="radio" name="rnDirection" checked>独→日</input>
             <input type="radio" name="rnDirection">日→独</input>
         </form>
         `;
