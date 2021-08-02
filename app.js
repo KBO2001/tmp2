@@ -641,7 +641,7 @@ let wordList = [
     [811, `die Schwere`, `重さ`, 1, `Schwere ／ -`, ``, 5, null, null],
     */
     [812, `schwerkrank`, `重病の`, 4, ``, ``, 5, null, null],
-    [813, `schwerverletzt`, `重傷の`, 4, ``, ``, 5, null, null]
+    [813, `schwerverletzt`, `重傷の`, 4, ``, ``, 5, null, null],
     /*
     [815, `die Schwierigkeit`, `困難`, 1, `Schwierigkeit ／ Schwierigkeiten`, ``, 2, null, null],
     [817, `schwindeln`, `めまいがする`, 2, ``, `非`, 5, null, null],
