@@ -15,7 +15,9 @@ let wordList = [
     [12, `ab|schließen`, `鍵を掛ける`, 2, `→ schließen`, ``, 1, null, null],
     [13, `ab|stürzen`, `堕落する`, 2, `→ stürzen`, ``, 4, null, null],
     [14, `das AKW`, `原子力発電所[= Atomkraftwerk]`, 1, ``, ``, 4, null, null],
+*/
     [16, `allein`, `一人きりで`, 4, ``, ``, 0, null, null],
+    /*
     [17, `als`, `…したとき`, 6, ``, `従属接続詞`, 0, null, null],
     [18, `also`, `それでは`, 3, ``, ``, 0, null, null],
     [20, `altmodisch`, `古風な`, 4, ``, ``, 5, null, null],
@@ -37,9 +39,6 @@ let wordList = [
     [36, `an|rufen`, `電話をかける`, 2, `→ rufen`, ``, 0, null, null],
     [37, `an|sehen`, `見る`, 2, `→ sehen`, ``, 1, null, null],
     [38, `an|sprechen`, `話しかける`, 2, `→ sprechen`, ``, 3, null, null],
-    */
-    [39, `(an)statt`, `…の代わりに`, 5, ``, `２格支配`, 4, null, null],
-    /*
     [40, `die Antwort`, `答え`, 1, `Antwort ／ Antworten`, ``, 0, null, null],
     [41, `antworten`, `答える`, 2, ``, ``, 1, null, null],
     [42, `anwesend`, `出席している`, 4, ``, ``, 3, null, null],
@@ -54,12 +53,16 @@ let wordList = [
     [54, `auf`, `…の上で／に／へ`, 5, ``, `３・４格支配`, 0, null, null],
     /*
     [55, `auf|bauen`, `組み上げる`, 2, ``, ``, 2, null, null],
+*/
     [56, `die Aufgabe`, `課題`, 1, `Aufgabe ／ Aufgaben`, ``, 0, null, null],
+    /*
     [57, `die Auflage`, `版`, 1, `Auflage ／ Auflagen`, ``, 3, null, null],
     [58, `auf|machen`, `開ける`, 2, ``, ``, 3, null, null],
     [60, `der Aufsatz`, `作文`, 1, `Aufsatzes ／ Aufsätze`, ``, 5, null, null],
     [61, `auf|stehen`, `起きる`, 2, `→ stehen`, ``, 2, null, null],
+*/
     [62, `der Augenblick`, `瞬間`, 1, `Augenblicks ／ Augenblicke`, ``, 1, null, null],
+    /*
     [64, `der Ausflug`, `ハイキング`, 1, `Ausflugs / -es ／ Aüsflüge`, ``, 2, null, null],
     [65, `aus|gehen`, `外出する`, 2, `→ gehen`, ``, 2, null, null],
     [66, `das Ausland`, `外国`, 1, `Auslands ／ -`, ``, 0, null, null],
@@ -78,13 +81,12 @@ let wordList = [
     [77, `backen`, `焼く`, 2, `backte ／ gebacken`, ``, 2, null, null],
     [79, `das Bad`, `入浴`, 1, `Bades ／ Bäder`, ``, 1, null, null],
     [80, `die Badewanne`, `湯船`, 1, `Badewanne ／ Badewannen`, ``, 4, null, null],
+    */
     [82, `bald`, `まもなく`, 3, `eher ／ am ehesten`, ``, 0, null, null],
     [84, `der Bau`, `建築`, 1, `Baus / -es ／ -`, ``, 2, null, null],
     [85, `bauen`, `建てる`, 2, ``, ``, 2, null, null],
-    */
-    [86, `der Bauer`, `農民`, 1, `Bauern ／ Bauern`, ``, 2, null, null],
-    /*
     [87, `beachten`, `守る`, 2, ``, ``, 3, null, null],
+    /*
     [88, `beantragen`, `願い出る`, 2, ``, ``, 3, null, null],
     [89, `beantworten`, `答える`, 2, ``, ``, 3, null, null],
     [90, `bearbeiten`, `加工する`, 2, ``, ``, 4, null, null],
@@ -96,27 +98,20 @@ let wordList = [
     [97, `behaupten`, `主張する`, 2, ``, ``, 2, null, null],
     [98, `die Behauptung`, `主張`, 1, `Behauptung ／ Behauptungen`, ``, 4, null, null],
     [99, `die Behörde`, `官庁`, 1, `Behörde ／ Behörden`, ``, 2, null, null],
-    */
-    [100, `bei`, `…の近くで／…の家で／…の際に`, 5, ``, `３格支配`, 0, null, null],
-    /*
     [101, `beiden`, `２つの`, 4, ``, ``, 5, null, null],
     [102, `beinahe`, `ほとんど`, 3, ``, ``, 3, null, null],
     [103, `beißen`, `噛む`, 2, `biss ／ gebissen`, ``, 5, null, null],
     [104, `bekennen`, `白状する`, 2, `→ kennen`, ``, 4, null, null],
-    */
-    [105, `bekommen`, `もらう`, 2, `→ kommen`, ``, 0, null, null],
-    /*
     [106, `bequem`, `快適な`, 4, ``, ``, 3, null, null],
     [107, `der Berg`, `山`, 1, `Berges ／ Berge`, ``, 1, null, null],
     [108, `der Bergsteiger`, `登山家`, 1, `Bergsteigers ／ Bergsteiger`, ``, 5, null, null],
+*/
     [109, `der Bericht`, `報告`, 1, `Berichts ／ Berichte`, ``, 2, null, null],
     [110, `berichten`, `報告する`, 2, ``, ``, 1, null, null],
+/*
     [113, `berühmt`, `有名な`, 4, ``, ``, 2, null, null],
     [114, `beschäftigen`, `雇う`, 2, ``, ``, 1, null, null],
     [115, `der Beschluss`, `決定`, 1, `Beschlusses ／ Beschlüsse`, ``, 3, null, null],
-    */
-    [116, `besetzen`, `占める`, 2, ``, ``, 1, null, null],
-    /*
     [117, `besitzen`, `所有している`, 2, `→ sitzen`, ``, 2, null, null],
     [118, `besonder`, `特別な`, 4, ``, ``, 5, null, null],
     [119, `besonders`, `特に`, 3, ``, ``, 0, null, null],
@@ -126,26 +121,18 @@ let wordList = [
     [123, `bestimmen`, `定める`, 2, ``, ``, 2, null, null]
     [126, `betonen`, `強調する`, 2, ``, ``, 2, null, null],
     [127, `betrachten`, `じっと見る`, 2, ``, ``, 2, null, null],
-    [128, `das Bett`, `ベッド`, 1, `Bettes ／ Betten`, ``, 1, null, null],
     [129, `die Bevölkerung`, `住民`, 1, `Bevölkerung ／ Bevölkerungen`, ``, 1, null, null],
     [130, `bevor`, `…する前に`, 6, ``, `従属接続詞`, 1, null, null],
     [131, `der Bewohner`, `住民`, 1, `Bewohners ／ Bewohner`, ``, 2, null, null],
     [132, `bezahlen`, `代金を支払う`, 2, ``, ``, 1, null, null],
-    */
-    [133, `die Bibliothek`, `図書館`, 1, `Bibliothek ／ Bibliotheken`, ``, 3, null, null],
-    /*
     [135, `bieten`, `提供する`, 2, `bot ／ geboten`, ``, 1, null, null],
     [136, `billiger`, `安い`, 4, ``, ``, 5, null, null],
     [138, `bis`, `…するまで`, 6, ``, `従属接続詞`, 0, null, null],
     [139, `bitten`, `頼む`, 2, `bat ／ gebeten`, ``, 1, null, null],
-    */
-    [141, `bleiben`, `とどまる`, 2, `blieb ／ geblieben`, ``, 0, null, null],
-    /*
     [142, `blühen`, `咲いている`, 2, ``, ``, 3, null, null],
     [143, `die Blume`, `花`, 1, `Blume ／ Blumen`, ``, 1, null, null],
     [144, `die Bombe`, `爆弾`, 1, `Bombe ／ Bomben`, ``, 4, null, null],
     [146, `der Brand`, `火事`, 1, `Brands / -es ／ Brände`, ``, 4, null, null],
-    [147, `das Brasilien`, `ブラジル`, 1, ``, ``, 4, null, null],
     [148, `brauchen`, `必要とする`, 2, ``, ``, 0, null, null],
     [150, `brechen`, `折る`, 2, `bricht ／ brach ／ gebrochen`, ``, 3, null, null],
     [151, `das Brett`, `板`, 1, `Bretts / -es ／ Bretter`, ``, 4, null, null],
@@ -163,21 +150,21 @@ let wordList = [
     [181, `dass`, `…ということ`, 6, ``, `従属接続詞`, 0, null, null],
     [182, `da|stehen`, `そこにじっと立っている`, 2, `→ stehen`, ``, 5, null, null],
     [183, `dauern`, `続く`, 2, ``, ``, 1, null, null],
+*/
     [184, `der Demonstrant`, `デモ参加者`, 1, `Demonstranten ／ Demonstranten`, ``, 5, null, null],
     [185, `die Demonstration`, `デモ`, 1, `Demonstration ／ Demonstrationen`, ``, 3, null, null],
     [186, `demonstrieren`, `はっきりと示す`, 2, ``, ``, 4, null, null],
-    [187, `denken`, `思う`, 2, `dachte ／ gedacht`, ``, 0, null, null],
+    /*
     [188, `denn`, `なぜなら`, 6, ``, `並列接続詞`, 0, null, null],
     [189, `deshalb`, `それゆえに`, 3, ``, ``, 0, null, null],
     [190, `desto`, `それだけいっそう`, 3, ``, ``, 2, null, null],
     [195, `der Dezember`, `１２月`, 1, `Dezembers ／ Dezember`, ``, 0, null, null],
     [196, `der Diamant`, `ダイアモンド`, 1, `Diamanten ／ Diamanten`, ``, 5, null, null],
     [197, `der Dienstag`, `火曜日`, 1, `Dienstags ／ Dienstage`, ``, 0, null, null],
+*/
     [198, `dienstlich`, `勤務上の`, 4, ``, ``, 5, null, null],
     [200, `die Diskussion`, `討論`, 1, `Diskussion ／ Diskussionen`, ``, 1, null, null],
-    */
-    [201, `diskutieren`, `議論する`, 2, ``, ``, 2, null, null],
-    /*
+/*
     [202, `doppelt`, `２倍の`, 4, ``, ``, 2, null, null],
     [203, `das Dorf`, `村`, 1, `Dorfes ／ Dörfer`, ``, 1, null, null],
     [205, `dorthin`, `あそこへ`, 3, ``, ``, 1, null, null],
@@ -208,7 +195,6 @@ let wordList = [
     [227, `das Einzelzimmer`, `一人部屋`, 1, `Einzelzimmers ／ Einzelzimmer`, ``, 4, null, null],
     [228, `ein|ziehen`, `引っ込める`, 2, `→ ziehen`, ``, 3, null, null],
     [229, `einzig`, `唯一の`, 4, ``, ``, 1, null, null],
-    [230, `die* Eltern`, `両親`, 1, `- ／ Eltern`, ``, 0, null, null],
     [232, `empören`, `憤慨させる`, 2, ``, ``, 5, null, null],
     [234, `endlich`, `やっと`, 3, ``, ``, 1, null, null],
     [236, `der Enkel`, `孫`, 1, `Enkels ／ Enkel`, ``, 3, null, null],
@@ -227,9 +213,6 @@ let wordList = [
     [248, `die Erfüllung`, `遂行`, 1, `Erfüllung ／ Erfüllungen`, ``, 4, null, null],
     [249, `erhalten`, `受け取る`, 2, `→ halten`, ``, 0, null, null],
     [250, `erhältlich`, `入手できる`, 4, ``, ``, 4, null, null],
-    */
-    [251, `erinnern`, `思い出す`, 2, ``, `再`, 1, null, null],
-    /*
     [254, `erklären`, `説明する`, 2, ``, ``, 0, null, null],
     [255, `erkranken`, `病気になる`, 2, ``, ``, 5, null, null],
     [256, `erlauben`, `許す`, 2, ``, ``, 1, null, null],
@@ -254,29 +237,21 @@ let wordList = [
     [277, `die Fähre`, `フェリー`, 1, `Fähre ／ Fähren`, ``, 4, null, null],
     [279, `die Fahrkarte`, `乗車券`, 1, `Fahrkarte ／ Fahrkarten`, ``, 4, null, null],
     [280, `das Fahrrad`, `自転車`, 1, `Fahrrades ／ Fahrräder`, ``, 2, null, null],
-    [285, `fast`, `ほとんど`, 3, ``, ``, 0, null, null],
-    [286, `faul`, `怠惰な`, 4, ``, ``, 3, null, null],
-    [287, `fehlen`, `欠けている`, 2, ``, ``, 0, null, null],
     */
+    [285, `fast`, `ほとんど`, 3, ``, ``, 0, null, null],
+    [287, `fehlen`, `欠けている`, 2, ``, ``, 0, null, null],
     [288, `der Fehler`, `誤り`, 1, `Fehlers ／ Fehler`, ``, 1, null, null],
-    [289, `das Fenster`, `窓`, 1, `Fensters ／ Fenster`, ``, 1, null, null],
-    /*
     [290, `die* Ferien`, `休暇`, 1, `- ／ Ferien`, ``, 2, null, null],
+/*
     [291, `fern`, `遠い`, 4, ``, ``, 3, null, null],
     [292, `fern|sehen`, `テレビを見る`, 2, `→ sehen`, ``, 1, null, null],
     [293, `fertig`, `出来上がった`, 4, ``, ``, 1, null, null],
     [294, `fest`, `堅い`, 4, ``, ``, 1, null, null],
     [295, `fest|nehmen`, `逮捕する`, 2, `→ nehmen`, ``, 4, null, null],
+*/
     [300, `die Finanz`, `財政`, 1, `Finanz ／ Finanzen`, ``, 5, null, null],
-    */
-    [301, `finanziell`, `財政上の`, 4, ``, ``, 2, null, null],
-    /*
+/*
     [303, `die Firma`, `会社`, 1, `Firma ／ Firmaen`, ``, 0, null, null],
-    */
-    [305, `die Flasche`, `瓶`, 1, `Flasche ／ Flaschen`, ``, 2, null, null],
-    /*
-    [306, `fleißig`, `勤勉な`, 4, ``, ``, 2, null, null],
-    [307, `das Fleisch`, `肉`, 1, `Fleisches ／ -`, ``, 0, null, null],
     [308, `fliegen`, `飛行機で行く`, 2, `flog ／ geflogen`, ``, 1, null, null],
     [309, `flink`, `すばしっこい`, 4, ``, ``, 5, null, null],
     [310, `der Flügel`, `翼`, 1, `Flügels ／ Flügel`, ``, 4, null, null],
@@ -284,11 +259,11 @@ let wordList = [
     [312, `das Flugzeug`, `飛行機`, 1, `Flugzeugs ／ Flugzeuge`, ``, 1, null, null],
     [314, `das Formular`, `書き込み用紙`, 1, `Formulars ／ Formulare`, ``, 2, null, null],
     [316, `fotografieren`, `写真を撮る`, 2, ``, ``, 3, null, null],
-    [319, `das Frankfurt`, `フランクフルト`, 1, ``, ``, 2, null, null],
+*/
     [320, `das Frankreich`, `フランス`, 1, ``, ``, 1, null, null],
     [321, `das Französisch`, `フランス語`, 1, `Französischs ／ -`, ``, 2, null, null],
     [322, `französisch`, `フランスの`, 4, ``, ``, 2, null, null],
-    [325, `die Freiheit`, `自由`, 1, `Freiheit ／ Freiheiten`, ``, 2, null, null],
+/*
     [326, `der Freitag`, `金曜日`, 1, `Freitags ／ Freitage`, ``, 0, null, null],
     [327, `die Fremdsprache`, `外国語`, 1, `Fremdsprache ／ Fremdsprachen`, ``, 3, null, null],
     [329, `freuen`, `喜ぶ`, 2, ``, ``, 0, null, null],
@@ -298,7 +273,9 @@ let wordList = [
     [336, `früher`, `以前`, 3, ``, ``, 0, null, null],
     [337, `der Frühling`, `春`, 1, `Frühlings ／ Frühlinge`, ``, 0, null, null],
     [338, `frühmorgens`, `早朝に`, 3, ``, ``, 5, null, null],
+*/
     [339, `fühlen`, `感じる`, 2, ``, ``, 1, null, null],
+    /*
     [340, `der Führerschein`, `運転免許証`, 1, `Führerscheins / -es ／ Führerscheine`, ``, 3, null, null],
     */
     [342, `für`, `…のために／…の代わりに`, 5, ``, `４格支配`, 0, null, null],
@@ -355,27 +332,21 @@ let wordList = [
     [409, `das Haar`, `髪の毛`, 1, `Haarer ／ Haare`, ``, 1, null, null],
     [411, `halb`, `半分`, 4, ``, ``, 0, null, null],
     [412, `die Hälfte`, `半分`, 1, `Hälfte ／ Hälften`, ``, 1, null, null],
-    [414, `das Hamburg`, `ハンブルク`, 1, ``, ``, 2, null, null],
     [416, `handeln`, `商売をする`, 2, ``, ``, 1, null, null],
-    */
-    [417, `hängen`, `掛かっている`, 2, `hing ／ gehangen`, ``, 1, null, null],
-    /*
     [418, `hart`, `固い`, 4, ``, ``, 1, null, null],
+*/
     [419, `der Hass`, `憎しみ`, 1, `Hasses ／ -`, ``, 4, null, null],
     [420, `der Hauptbahnhof`, `中央駅`, 1, `Hauptbahnhofs / -es ／ Hauptbahnhöfe`, ``, 2, null, null],
-    */
-    [423, `das Heft`, `ノート`, 1, `Heftes ／ Hefte`, ``, 3, null, null],
-    /*
+/*
     [424, `heftig`, `激しい`, 4, ``, ``, 2, null, null],
     [425, `die Heimat`, `故郷`, 1, `Heimat ／ Heimaten`, ``, 1, null, null],
     [426, `heimlich`, `秘密の`, 4, ``, ``, 4, null, null],
     [427, `heiraten`, `結婚する`, 2, ``, ``, 0, null, null],
     [431, `der Herausgeber`, `編者`, 1, `Herausgebers ／ Herausgeber`, ``, 5, null, null],
+    */
     [432, `der Herbst`, `秋`, 1, `Herbstes ／ Herbste`, ``, 0, null, null],
     [434, `das Herz`, `心臓`, 1, `Herzens ／ Herzen`, ``, 1, null, null],
-    */
-    [435, `herzlich`, `心からの`, 4, ``, ``, 1, null, null],
-    /*
+/*
     [438, `heutzutage`, `今日では`, 3, ``, ``, 2, null, null],
     [440, `hierher`, `こちらへ`, 3, ``, ``, 2, null, null],
     [442, `hinein|fahren`, `中に入っていく`, 2, `→ fahren`, ``, 5, null, null],
@@ -386,7 +357,9 @@ let wordList = [
     [445, `historisch`, `歴史の`, 4, ``, ``, 2, null, null],
     [448, `das Hochhaus`, `高層建築物`, 1, `Hochhauses ／ Hochhäuser`, ``, 5, null, null],
     [449, `die Hochzeit`, `結婚式`, 1, `Hochzeit ／ Hochzeiten`, ``, 1, null, null],
+*/
     [450, `hoffen`, `望む`, 2, ``, ``, 1, null, null],
+   /*
     [451, `höflich`, `礼儀正しい`, 4, ``, ``, 2, null, null],
     [452, `die Höhle`, `洞穴`, 1, `Höhle ／ Höhlen`, ``, 5, null, null],
     [453, `holen`, `行って持ってくる`, 2, ``, ``, 1, null, null],
@@ -397,7 +370,6 @@ let wordList = [
     
     [463, `indem`, `…することで`, 6, ``, `従属接続詞`, 2, null, null],
     [464, `indessen`, `その間に`, 3, ``, ``, 5, null, null],
-    [466, `informieren`, `情報を知らせる`, 2, ``, ``, 2, null, null],
     [467, `der Inhalt`, `中身`, 1, `Inhalts / -es ／ Inhalte`, ``, 1, null, null],
     [468, `innerhalb`, `…の内に`, 5, ``, `２格支配`, 1, null, null],
     [469, `intensiv`, `集中的な`, 4, ``, ``, 3, null, null],
@@ -413,9 +385,6 @@ let wordList = [
     
     [490, `die Kaffeepause`, `コーヒーブレイク`, 1, `Kaffeepause ／ Kaffeepausen`, ``, 5, null, null],
     [491, `kalt`, `寒い`, 4, ``, ``, 1, null, null],
-    */
-    [492, `kämpfen`, `戦う`, 2, ``, ``, 2, null, null],
-    /*
     [493, `der Kapitän`, `船長`, 1, `Kapitäns ／ Kapitäne`, ``, 4, null, null],
     [494, `kaputt`, `壊れた`, 4, ``, ``, 2, null, null],
     [495, `die Karte`, `カード`, 1, `Karte ／ Karten`, ``, 1, null, null],
@@ -425,7 +394,6 @@ let wordList = [
     [503, `der Kerl`, `やつ`, 1, `Kerls / -es ／ Kerle`, ``, 5, null, null],
     [509, `das Klassenzimmer`, `教室`, 1, `Klassenzimmers ／ Klassenzimmer`, ``, 5, null, null],
     [510, `klatschen`, `ぱちっと音を立てる`, 2, ``, ``, 5, null, null],
-    [511, `das Klavier`, `ピアノ`, 1, `Klaviers ／ Klaviere`, ``, 3, null, null],
     [512, `das Kleid`, `ワンピース`, 1, `Kleides ／ Kleider`, ``, 2, null, null],
     [514, `klingeln`, `ベルを鳴らす`, 2, ``, ``, 2, null, null],
     [515, `die Klinik`, `病院`, 1, `Klinik ／ Kliniken`, ``, 3, null, null],
@@ -443,12 +411,12 @@ let wordList = [
     [528, `kostbar`, `高価な`, 4, ``, ``, 4, null, null],
     */
     [530, `krabbeln`, `くすぐる、はって行く`, 2, ``, ``, 5, null, null],
-    [533, `der Krebs`, `癌`, 1, `Krebses ／ Krebse`, ``, 5, null, null],
     /*
     [535, `der Krimi`, `探偵`, 1, `Krimi / -s ／ Krimi / s`, ``, 4, null, null],
     [536, `die Krise`, `危機`, 1, `Krise ／ Krisen`, ``, 2, null, null],
+*/
     [537, `die Küche`, `台所`, 1, `Küche ／ Küchen`, ``, 2, null, null],
-    [539, `der Kugelschreiber`, `ボールペン`, 1, `Kugelschreibers ／ Kugelschreiber`, ``, 3, null, null],
+    /*
     [540, `kühl`, `涼しい`, 4, ``, ``, 2, null, null],
     [541, `der Kunde`, `客`, 1, `Kundeen ／ Kundeen`, ``, 0, null, null],
     [542, `der Kurs`, `針路`, 1, `Kurses ／ Kurse`, ``, 1, null, null],
@@ -468,13 +436,13 @@ let wordList = [
     [556, `laut`, `大きい`, 4, ``, ``, 0, null, null],
     [557, `lauter`, `純粋な`, 4, ``, ``, 5, null, null],
     [558, `der Lavendel`, `ラベンダー`, 1, `Lavendels ／ Lavendel`, ``, 5, null, null],
+*/
     [559, `das Leben`, `生命`, 1, `Lebens ／ -`, ``, 0, null, null],
     [561, `die Lebenserfahrung`, `人生経験`, 1, `Lebenserfahrung ／ Lebenserfahrungen`, ``, 5, null, null],
-    */
     [562, `leer`, `空いた`, 4, ``, ``, 1, null, null],
     [563, `legen`, `置く`, 2, ``, ``, 0, null, null],
-    /*    
     [565, `lehren`, `教える`, 2, ``, ``, 3, null, null],
+    /*
     [569, `leicht`, `軽い`, 4, ``, ``, 0, null, null],
     [570, `leid`, `うんざりする`, 4, ``, ``, 4, null, null],
     */
@@ -492,7 +460,6 @@ let wordList = [
     [585, `links`, `左に`, 3, ``, ``, 0, null, null],
     [586, `die Literatur`, `文学`, 1, `Literatur ／ Literaturen`, ``, 1, null, null],
     [587, `loben`, `ほめる`, 2, ``, ``, 3, null, null],
-    [588, `das London`, `ロンドン`, 1, ``, ``, 5, null, null],
     [589, `lösen`, `はがす`, 2, ``, ``, 2, null, null],
     [590, `die Lösung`, `解決`, 1, `Lösung ／ Lösungen`, ``, 0, null, null],
     [592, `der Luftangriff`, `空襲`, 1, `Luftangriffs / -es ／ Luftangriffe`, ``, 5, null, null],
@@ -528,9 +495,6 @@ let wordList = [
     [628, `die Mode`, `流行`, 1, `Mode ／ Moden`, ``, 2, null, null],
     [629, `das Modell`, `手本`, 1, `Modells ／ Modelle`, ``, 2, null, null],
     [630, `möglich`, `可能な`, 4, `- ／ möglichst`, ``, 0, null, null],
-    */
-    [631, `der Monat`, `月（暦）`, 1, `Monats ／ Monate`, ``, 0, null, null],
-    /*
     [632, `monatlich`, `毎月の`, 4, ``, ``, 3, null, null],
     [633, `der Montag`, `月曜日`, 1, `Montags ／ Montage`, ``, 0, null, null],
     [634, `der Mordes`, `殺人`, 1, `Mordess / -es ／ Mordese`, ``, 5, null, null],
@@ -539,9 +503,6 @@ let wordList = [
     
     
     [643, `das Nabenzimmer`, `隣室`, 1, `Nabenzimmers ／ Nabenzimmer`, ``, 5, null, null],
-    */
-    [644, `nach`, `…の方へ／…の後で`, 5, ``, `３格支配`, 0, null, null],
-    /*
     [645, `der Nachbar`, `隣人`, 1, `Nachbarn ／ Nachbarn`, ``, 1, null, null],
     [646, `der Nachmittag`, `午後`, 1, `Nachmittags ／ Nachmittage`, ``, 1, null, null],
     [647, `die Nachricht`, `知らせ`, 1, `Nachricht ／ Nachrichten`, ``, 1, null, null],
@@ -551,9 +512,6 @@ let wordList = [
     [652, `neben`, `…の傍らで／に／へ`, 5, ``, `３・４格支配`, 0, null, null],
     /*
     [653, `nebenan`, `隣に`, 3, ``, ``, 4, null, null],
-    */
-    [659, `noch`, `まだ`, 3, ``, ``, 0, null, null],
-    /*
     [660, `nochmal`, `もう一度`, 3, ``, ``, 5, null, null],
     [662, `die Not`, `窮乏`, 1, `Not ／ Nöte`, ``, 3, null, null],
     [663, `die Nudel`, `ヌードル`, 1, `Nudel ／ Nudeln`, ``, 4, null, null],
@@ -583,16 +541,10 @@ let wordList = [
     [698, `die Pistole`, `ピストル`, 1, `Pistole ／ Pistolen`, ``, 4, null, null],
     [701, `plaudern`, `おしゃべりをする`, 2, ``, ``, 5, null, null],
     [705, `die Polizei`, `警察`, 1, `Polizei ／ -`, ``, 0, null, null],
-    */
-    [706, `der Polizist`, `警官`, 1, `Polizisten ／ Polizisten`, ``, 2, null, null],
-    /*
     [707, `populärer`, `人気のある`, 4, ``, ``, 5, null, null],
     [708, `der Portier`, `門番`, 1, `Portiers ／ Portiers`, ``, 5, null, null],
     [710, `praktisch`, `実際的な`, 4, ``, ``, 2, null, null],
     [711, `prima`, `素晴らしい`, 4, `- ／ -`, ``, 2, null, null],
-    */
-    [716, `die Prüfung`, `試験`, 1, `Prüfung ／ Prüfungen`, ``, 1, null, null],
-    /*
     [717, `pünktlich`, `時間通りの`, 4, ``, ``, 2, null, null],
     
     
@@ -600,12 +552,11 @@ let wordList = [
     
     
     [719, `randalieren`, `大暴れする`, 2, ``, ``, 5, null, null],
+*/
     [721, `raten`, `助言する`, 2, `räten ／ riet ／ geraten`, ``, 3, null, null],
+    /*
     [722, `das Rathaus`, `市役所`, 1, `Rathauses ／ Rathäuser`, ``, 2, null, null],
     [724, `die Rechnung`, `請求書`, 1, `Rechnung ／ Rechnungen`, ``, 1, null, null],
-    */
-    [725, `recht`, `右の、適切な、（副）なかなか`, 4, ``, `※`, 1, null, null],
-    /*
     [726, `reden`, `話す`, 2, ``, ``, 1, null, null],
     [727, `das Referat`, `研究報告`, 1, `Referats / -es ／ Referate`, ``, 5, null, null],
     [728, `das Regal`, `棚`, 1, `Regals ／ Regale`, ``, 3, null, null],
@@ -615,13 +566,17 @@ let wordList = [
     [730, `der Regenschirm`, `雨傘`, 1, `Regenschirms / -es ／ Regenschirme`, ``, 5, null, null],
     [731, `die Regierung`, `政府`, 1, `Regierung ／ Regierungen`, ``, 0, null, null],
     [732, `der Regisseur`, `演出家`, 1, `Regisseurs ／ Regisseure`, ``, 3, null, null],
+    */
     [733, `regnen`, `雨が降る`, 2, ``, `非`, 1, null, null],
+    /*
     [734, `reich`, `金持ちの`, 4, ``, ``, 1, null, null],
     [735, `reichen`, `足りる`, 2, ``, ``, 2, null, null],
     [736, `reißen`, `引きちぎる`, 2, `riss ／ gerissen`, ``, 3, null, null],
+*/
     [737, `die Reise`, `旅`, 1, `Reise ／ Reisen`, ``, 0, null, null],
     [738, `reisen`, `旅をする`, 2, ``, ``, 1, null, null],
     [739, `der Reisepass`, `旅券`, 1, `Reisepasses ／ Reisepässe`, ``, 5, null, null],
+/*
     [740, `relativ`, `相対的な`, 4, ``, ``, 2, null, null],
     [741, `renovieren`, `改修する`, 2, ``, ``, 4, null, null],
     [742, `reparieren`, `修理する`, 2, ``, ``, 2, null, null],
@@ -673,15 +628,9 @@ let wordList = [
     [789, `schmecken`, `味がする`, 2, ``, ``, 0, null, null],
     [790, `schnarchen`, `いびきをかく`, 2, ``, ``, 5, null, null],
     [791, `der Schnee`, `雪`, 1, `Schnees ／ -`, ``, 2, null, null],
-    */
-    [792, `schnell`, `速い`, 4, ``, ``, 0, null, null],
-    /*
     [795, `schrecken`, `驚かす`, 2, `schrak ／ geschreckt`, ``, 4, null, null],
     [796, `schrecklich`, `恐ろしい`, 4, ``, ``, 2, null, null],
     [798, `schriftlich`, `文字で書かれた`, 4, ``, ``, 3, null, null],
-    */
-    [799, `der Schriftsteller`, `作家`, 1, `Schriftstellers ／ Schriftsteller`, ``, 3, null, null],
-    /*
     [800, `schuld`, `責任がある`, 4, ``, ``, 2, null, null],
     [804, `der Schulleiter`, `校長`, 1, `Schulleiters ／ Schulleiter`, ``, 5, null, null],
     [805, `die Schulzeit`, `学校時代`, 1, `Schulzeit ／ Schulzeiten`, ``, 5, null, null],
@@ -690,8 +639,10 @@ let wordList = [
     [809, `die Schweiz`, `スイス`, 1, `Schweiz ／ -`, ``, 1, null, null],
     [810, `schwer`, `重い`, 4, ``, ``, 0, null, null],
     [811, `die Schwere`, `重さ`, 1, `Schwere ／ -`, ``, 5, null, null],
+*/
     [812, `schwerkrank`, `重病の`, 4, ``, ``, 5, null, null],
-    [813, `schwerverletzt`, `重傷の`, 4, ``, ``, 5, null, null],
+    [813, `schwerverletzt`, `重傷の`, 4, ``, ``, 5, null, null]
+    /*
     [815, `die Schwierigkeit`, `困難`, 1, `Schwierigkeit ／ Schwierigkeiten`, ``, 2, null, null],
     [817, `schwindeln`, `めまいがする`, 2, ``, `非`, 5, null, null],
     [818, `der See`, `湖`, 1, `Sees ／ Seen`, ``, 1, null, null],
@@ -704,15 +655,15 @@ let wordList = [
     [826, `die Seite`, `面`, 1, `Seite ／ Seiten`, ``, 0, null, null],
     [827, `selten`, `めったに〜ない`, 3, ``, ``, 1, null, null],
     [828, `der Sessel`, `安楽いす`, 1, `Sessels ／ Sessel`, ``, 2, null, null],
-    [830, `sicher`, `安全な`, 4, ``, ``, 0, null, null],
-    */
-    [831, `sicherlich`, `確かに`, 3, ``, ``, 3, null, null],
+*/
+    [830, `sicher`, `安全な、きっと`, 4, ``, ``, 0, null, null],
     /*
     [832, `die Signatur`, `サイン`, 1, `Signatur ／ Signaturen`, ``, 5, null, null],
     [834, `der Silvesterabend`, `大晦日の晩`, 1, `Silvesterabends ／ Silvesterabende`, ``, 5, null, null],
     [836, `sinken`, `沈む`, 2, `sank ／ gesunken`, ``, 3, null, null],
     [838, `die Sitzung`, `会議`, 1, `Sitzung ／ Sitzungen`, ``, 2, null, null],
     [840, `sobald`, `…したらすぐに`, 6, ``, `従属接続詞`, 2, null, null],
+*/
     [841, `sofort`, `すぐに`, 3, ``, ``, 0, null, null],
     [844, `der Sommer`, `夏`, 1, `Sommers ／ Sommer`, ``, 0, null, null],
     [845, `die* Sommerferien`, `夏休み`, 1, `- ／ Sommerferien`, ``, 4, null, null],
@@ -720,6 +671,7 @@ let wordList = [
     [847, `der Sonntag`, `日曜日`, 1, `Sonntags ／ Sonntage`, ``, 0, null, null],
     [848, `der Sonntagmorgen`, `日曜日の朝`, 1, `Sonntagmorgens ／ Sonntagmorgen`, ``, 5, null, null],
     [849, `sonntags`, `日曜日に`, 3, ``, ``, 4, null, null],
+/*
     [850, `sonst`, `そのほかに`, 3, ``, ``, 1, null, null],
     [851, `sorgen`, `世話をする`, 2, ``, ``, 1, null, null],
     [852, `sorgfältig`, `入念な`, 4, ``, ``, 4, null, null],
@@ -730,17 +682,23 @@ let wordList = [
     [858, `spazieren`, `ぶらぶら歩く`, 2, ``, ``, 3, null, null],
     [859, `der Spezialist`, `専門家`, 1, `Spezialisten ／ Spezialisten`, ``, 4, null, null],
     [860, `der Spiegel`, `鏡`, 1, `Spiegels ／ Spiegel`, ``, 2, null, null],
+*/
     [861, `das Spiel`, `遊び`, 1, `Spiels ／ Spiele`, ``, 1, null, null],
     [863, `der Spieler`, `プレーヤー`, 1, `Spielers ／ Spieler`, ``, 2, null, null],
+    /*
     [864, `die Sportart`, `スポーツ種目`, 1, `Sportart ／ Sportarten`, ``, 4, null, null],
     [865, `die Sprache`, `言語`, 1, `Sprache ／ Sprachen`, ``, 0, null, null],
     [866, `der Sprachwissenschaftler`, `言語学者`, 1, `Sprachwissenschaftlers ／ Sprachwissenschaftler`, ``, 5, null, null],
     [868, `die Sprechstunde`, `面会時間`, 1, `Sprechstunde ／ Sprechstunden`, ``, 4, null, null],
     [869, `das Staatsexamen`, `国家試験`, 1, `Staatsexamens ／ Staatsexamen`, ``, 5, null, null],
+*/
     [870, `das Stadion`, `競技場`, 1, `Stadions ／ Stadien`, ``, 3, null, null],
     [872, `stark`, `強い`, 4, ``, ``, 0, null, null],
+    /*
     [873, `statt|finden`, `開催される`, 2, `→ finden`, ``, 1, null, null],
+*/
     [875, `stehlen`, `盗む`, 2, `stiehlt ／ stahl ／ gestohlen`, ``, 3, null, null],
+    /*
     [876, `steigen`, `登る`, 2, `stieg ／ gestiegen`, ``, 2, null, null],
     [879, `der Stich`, `刺し傷`, 1, `Stichs / -es ／ Stiche`, ``, 5, null, null],
     [880, `still`, `静かな`, 4, ``, ``, 3, null, null],
@@ -748,7 +706,6 @@ let wordList = [
     */
     [882, `stolz`, `誇りを持った`, 4, ``, ``, 3, null, null],
     [883, `die Störung`, `邪魔`, 1, `Störung ／ Störungen`, ``, 4, null, null],
-    [884, `die Straße`, `道路`, 1, `Straße ／ Straßen`, ``, 0, null, null],
     /*
     [885, `die Strecke`, `区間`, 1, `Strecke ／ Strecken`, ``, 1, null, null],
     [886, `das Stück`, `部分`, 1, `Stücks ／ Stücke`, ``, 1, null, null],
@@ -761,10 +718,9 @@ let wordList = [
     [896, `täglich`, `毎日の`, 4, ``, ``, 1, null, null],
     [897, `tagsüber`, `昼間`, 3, ``, ``, 4, null, null],
     [898, `der Taifun`, `台風`, 1, `Taifuns ／ Taifune`, ``, 5, null, null],
-    */
-    [901, `die Tasche`, `バッグ、ポケット`, 1, `Tasche ／ Taschen`, ``, 2, null, null],
-    /*
+*/
     [902, `die Tasse`, `カップ`, 1, `Tasse ／ Tassen`, ``, 2, null, null],
+    /*
     [903, `die Tat`, `行為`, 1, `Tat ／ Taten`, ``, 2, null, null],
     [904, `der Täter`, `犯人`, 1, `Täters ／ Täter`, ``, 2, null, null],
     [905, `die Tatsache`, `事実`, 1, `Tatsache ／ Tatsachen`, ``, 2, null, null],
@@ -778,9 +734,6 @@ let wordList = [
     [917, `tief`, `深い`, 4, ``, ``, 1, null, null],
     [918, `das Tier`, `動物`, 1, `Tieres ／ Tiere`, ``, 1, null, null],
     [919, `der Tierschutz`, `動物保護`, 1, `Tierschutzes ／ -`, ``, 5, null, null],
-    */
-    [920, `der Tisch`, `テーブル`, 1, `Tisches ／ Tische`, ``, 1, null, null],
-    /*
     [922, `die Tomate`, `トマト`, 1, `Tomate ／ Tomaten`, ``, 2, null, null],
     [923, `der Tourist`, `観光客`, 1, `Touristen ／ Touristen`, ``, 1, null, null],
     [924, `tragbar`, `携帯用の`, 4, ``, ``, 5, null, null],
@@ -793,17 +746,16 @@ let wordList = [
     [931, `treten`, `蹴る`, 2, `tritt ／ trat ／ getreten`, ``, 1, null, null],
     /*
     [932, `triefen`, `滴る`, 2, `troff ／ getroffen`, ``, 5, null, null],
-    */
-    [934, `trotz`, `…にもかかわらず`, 5, ``, `２格支配`, 1, null, null],
-    /*
     [935, `trotzdem`, `それにもかかわらず`, 3, ``, ``, 1, null, null],
     [936, `die Tulpe`, `チューリップ`, 1, `Tulpe ／ Tulpen`, ``, 5, null, null],
     [938, `die Tür`, `ドア`, 1, `Tür ／ Türen`, ``, 1, null, null],
     
     
-    [939, `üben`, `練習する`, 2, ``, ``, 3, null, null],
+    [939, `üben`, `練習する`, 2, ``, ``, 3, null, null]
+*/
     [940, `über`, `…の上方で／に／へ／…を越えて`, 5, ``, `３・４格支配`, 0, null, null],
     [941, `überall`, `いたるところで`, 3, ``, ``, 1, null, null],
+    /*
     [942, `überarbeiten`, `手に入れる`, 2, ``, ``, 5, null, null],
     [943, `überhaupt`, `全然〜（ない）`, 3, ``, ``, 2, null, null],
     [944, `überraschen`, `驚かす`, 2, ``, ``, 3, null, null],
@@ -820,7 +772,9 @@ let wordList = [
     [953, `um|steigen`, `乗り換える`, 2, `→ steigen`, ``, 3, null, null],
     [954, `die Umwelt`, `環境`, 1, `Umwelt ／ -`, ``, 2, null, null],
     [955, `um||ziehen`, `引っ越す、取り囲む`, 2, `→ ziehen`, `両`, 2, null, null],
+    */
     [956, `unbedingt`, `絶対に`, 3, ``, ``, 1, null, null],
+    /*
     [957, `unbeliebt`, `好かれていない`, 4, ``, ``, 5, null, null],
     [959, `undurchführbar`, `実行できない`, 4, ``, ``, 5, null, null],
     [961, `der Unfall`, `事故`, 1, `Unfalls / -es ／ Unfälle`, ``, 1, null, null],
@@ -843,12 +797,13 @@ let wordList = [
     [980, `die Ursache`, `原因`, 1, `Ursache ／ Ursachen`, ``, 2, null, null],
     
     
-    [981, `die Vase`, `花瓶`, 1, `Vase ／ Vasen`, ``, 5, null, null],
     [983, `verändern`, `変わる`, 2, ``, ``, 2, null, null],
     [984, `verbieten`, `禁じる`, 2, `→ bieten`, ``, 1, null, null],
     [985, `verbringen`, `過ごす`, 2, `→ bringen`, ``, 3, null, null],
     [986, `verdienen`, `稼ぐ`, 2, ``, ``, 1, null, null],
+*/
     [987, `die Verfassung`, `憲法`, 1, `Verfassung ／ Verfassungen`, ``, 1, null, null],
+    /*
     [988, `verfilmen`, `映画化する`, 2, ``, ``, 5, null, null],
     [989, `verfolgen`, `追う`, 2, ``, ``, 3, null, null],
     [990, `die Verfügung`, `意のままにすること`, 1, `Verfügung ／ Verfügungen`, ``, 2, null, null],
@@ -856,7 +811,9 @@ let wordList = [
     [994, `verhaften`, `逮捕する`, 2, ``, ``, 3, null, null],
     [995, `verheiraten`, `結婚する`, 2, ``, `再`, 5, null, null],
     [996, `verkaufen`, `売る`, 2, ``, ``, 0, null, null],
+*/
     [997, `die Verkehrsregel`, `交通規則`, 1, `Verkehrsregel ／ Verkehrsregeln`, ``, 5, null, null],
+    /*
     [998, `der Verlag`, `出版社`, 1, `Verlags / -es ／ Verlage`, ``, 2, null, null],
     [999, `verlassen`, `去る`, 2, `→ lassen`, ``, 2, null, null],
     [1000, `verlaufen`, `経過する`, 2, `→ laufen`, ``, 3, null, null],
@@ -877,17 +834,15 @@ let wordList = [
     [1015, `verwechseln`, `取り違える`, 2, ``, ``, 3, null, null],
     [1016, `verweigern`, `拒否する`, 2, ``, ``, 4, null, null],
     [1017, `verwirklichen`, `実現する`, 2, ``, ``, 4, null, null],
+*/
     [1018, `verzeihen`, `許す`, 2, `→ zeihen`, ``, 3, null, null],
-    */
     [1019, `die Verzeihung`, `許し`, 1, `Verzeihung ／ -`, ``, 3, null, null],
     /*
     [1021, `vielleicht`, `ひょっとしたら`, 3, ``, ``, 0, null, null],
     [1023, `das Volk`, `民族`, 1, `Volkes ／ Völker`, ``, 1, null, null],
     [1024, `das Volkslied`, `民謡`, 1, `Volkslieds / -es ／ Volkslieder`, ``, 5, null, null],
-    [1025, `der Volkswagen`, `フォルクスワーゲン`, 1, `Volkswagens ／ Volkswagen`, ``, 5, null, null],
     [1027, `völlig`, `まったく`, 3, ``, ``, 1, null, null],
     */
-    [1028, `von`, `…から／…の／…について`, 5, ``, `３格支配`, 0, null, null],
     [1029, `vor`, `…の前で／に／へ`, 5, ``, `３・４格支配`, 0, null, null],
     /*
     [1030, `vorbei`, `通り過ぎて`, 3, ``, ``, 1, null, null],
@@ -906,27 +861,22 @@ let wordList = [
     
     [1043, `der Wagen`, `自動車`, 1, `Wagens ／ Wagen`, ``, 1, null, null],
     [1044, `wählen`, `選ぶ`, 2, ``, ``, 1, null, null],
+    */
     [1045, `wahr`, `真実の`, 4, ``, ``, 0, null, null],
+    /*
     [1046, `während`, `…する間に／…の一方で`, 6, ``, `従属接続詞`, 0, null, null],
     */
     [1047, `während`, `…のあいだ`, 5, ``, `２格支配`, 0, null, null],
-    /*
     [1048, `die Wahrheit`, `真実`, 1, `Wahrheit ／ Wahrheiten`, ``, 2, null, null],
-    */
-    [1050, `die Wand`, `壁`, 1, `Wand ／ Wände`, ``, 2, null, null],
     /*
     [1051, `wandern`, `ハイキングをする`, 2, ``, ``, 2, null, null],
-    [1053, `warm`, `暖かい`, 4, ``, ``, 1, null, null],
     */
-    [1054, `warten`, `待つ`, 2, ``, ``, 0, null, null],
-    /*
     [1055, `warum`, `なぜ`, 3, ``, ``, 0, null, null],
+    /*
     [1056, `der Waschbär`, `アライグマ`, 1, `Waschbären ／ Waschbären`, ``, 5, null, null],
-    [1057, `waschen`, `洗う`, 2, `wäscht ／ wusch ／ gewaschen`, ``, 2, null, null],
     [1058, `das Wasser`, `水`, 1, `Wassers ／ -`, ``, 0, null, null],
     [1059, `wechseln`, `取り替える`, 2, ``, ``, 1, null, null],
     */
-    [1060, `der Weg`, `道`, 1, `Weges ／ Wege`, ``, 0, null, null],
     [1061, `wegen`, `…のゆえに`, 5, ``, `２格支配`, 0, null, null],
     /*
     [1062, `das Weihnachten`, `クリスマス`, 1, `Weihnachten ／ Weihnachten`, ``, 2, null, null],
@@ -935,14 +885,18 @@ let wordList = [
     [1066, `die Weise`, `やり方`, 1, `Weise ／ Weisen`, ``, 1, null, null],
     [1067, `weit`, `広い`, 4, ``, ``, 0, null, null],
     [1068, `weiter`, `さらに先へ`, 3, ``, ``, 0, null, null],
+    */
     [1069, `die Welt`, `世界`, 1, `Welt ／ Welten`, ``, 0, null, null],
     [1070, `der Weltmeister`, `世界チャンピオン`, 1, `Weltmeisters ／ Weltmeister`, ``, 5, null, null],
     [1071, `die Weltreise`, `世界旅行`, 1, `Weltreise ／ Weltreisen`, ``, 5, null, null],
+    /*
     [1072, `wenig`, `少しの`, 4, `wenigst / mindest ／ weniger / minder`, ``, 0, null, null],
     [1073, `wenn`, `…ならば／…したとき`, 6, ``, `従属接続詞`, 0, null, null],
     [1074, `wenn auch`, `…ではあるが`, 6, ``, `従属接続詞`, 5, null, null],
     [1075, `der Wettbewerb`, `競技会`, 1, `Wettbewerbs / -es ／ Wettbewerbe`, ``, 3, null, null],
+*/
     [1076, `das Wetter`, `天気`, 1, `Wetters ／ Wetter`, ``, 0, null, null],
+    /*
     [1077, `wichtig`, `重要な`, 4, ``, ``, 0, null, null],
     */
     [1078, `wie`, `どのように`, 3, ``, `疑問副詞`, 0, null, null],
@@ -955,18 +909,11 @@ let wordList = [
     [1087, `die Wirklichkeit`, `現実`, 1, `Wirklichkeit ／ Wirklichkeiten`, ``, 2, null, null],
     [1090, `woanders`, `他の場所で`, 3, ``, ``, 5, null, null],
     */
-    [1091, `die Woche`, `週`, 1, `Woche ／ Wochen`, ``, 0, null, null],
-    /*
-    [1092, `das Wochenende`, `週末`, 1, `Wochenendes ／ Wochenenden`, ``, 0, null, null],
-    */
     [1093, `woher`, `どこから`, 3, ``, `疑問副詞`, 1, null, null],
     [1094, `wohin`, `どこへ`, 3, ``, `疑問副詞`, 1, null, null],
     [1095, `das Wohl`, `幸せ`, 1, `Wohls / -es ／ -`, ``, 0, null, null],
     /*    
     [1096, `wohlhabend`, `裕福な`, 4, ``, ``, 5, null, null],
-    */
-    [1098, `die Wohnung`, `住まい`, 1, `Wohnung ／ Wohnungen`, ``, 0, null, null],
-    /*
     [1099, `das Wohnzimmer`, `居間`, 1, `Wohnzimmers ／ Wohnzimmer`, ``, 2, null, null],
     [1100, `der Wolf`, `オオカミ`, 1, `Wolfs / -es ／ Wölfe`, ``, 3, null, null],
     [1105, `das Wunder`, `奇跡`, 1, `Wunder s ／ Wunder`, ``, 3, null, null],
@@ -981,20 +928,15 @@ let wordList = [
     [1113, `die Zeichnung`, `スケッチ`, 1, `Zeichnung ／ Zeichnungen`, ``, 3, null, null],
     [1115, `zeihen`, `責める`, 2, `zieh ／ geeziehen`, ``, 5, null, null],
     [1117, `die Zeitschrift`, `雑誌`, 1, `Zeitschrift ／ Zeitschriften`, ``, 2, null, null],
-    */
-    [1118, `die Zeitung`, `新聞`, 1, `Zeitung ／ Zeitungen`, ``, 0, null, null],
-    /*
     [1119, `zerstören`, `破壊する`, 2, ``, ``, 2, null, null],
     [1120, `ziehen`, `引く`, 2, `zog ／ gezogen`, ``, 1, null, null],
     [1121, `das Ziel`, `目的地`, 1, `Ziels ／ Ziele`, ``, 0, null, null],
+    */
     [1122, `das Zimmer`, `部屋`, 1, `Zimmers ／ Zimmer`, ``, 0, null, null],
+    /*
     [1123, `der Zirkus`, `サーカス`, 1, `Zirkus ／ Zirkussse`, ``, 5, null, null],
     [1124, `zittern`, `震える`, 2, ``, ``, 4, null, null],
     [1125, `der Zorn`, `怒り`, 1, `Zorns / -es ／ -`, ``, 3, null, null],
-    */
-    [1126, `zu`, `…へ`, 5, ``, `３格支配`, 0, null, null],
-    [1127, `zufrieden`, `満足した`, 4, ``, ``, 2, null, null],
-    /*
     [1129, `zu|machen`, `閉める`, 2, ``, ``, 4, null, null],
     [1130, `zurück|geben`, `返す`, 2, `→ geben`, ``, 3, null, null],
     [1131, `zurück|kommen`, `帰ってくる`, 2, `→ kommen`, ``, 4, null, null],
@@ -1007,8 +949,7 @@ let wordList = [
    　　*/
     [1138, `zwischen`, `…の間で／に／へ`, 5, ``, `３・４格支配`, 0, null, null],
     [1140, `wen`,`誰かを`, 3, ``, `※、疑問副詞`, 0, null, null],
-    [1141, `selbst`,`自ら`,3,``,``, 0, null, null],
-    [1142, `führen`,`連れて行く`,2,``,``,0,null,null,]
+    [1141, `wohl`, `おそらく`, 3, ``, ``, 0, null, null]
    
    
 ];
